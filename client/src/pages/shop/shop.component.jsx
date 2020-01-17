@@ -2,8 +2,6 @@ import React, {useEffect, lazy, Suspense } from 'react';
 import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import CollectionPageContainer from '../collection/collection.container'
-
 import { fetchCollectionsStart } from '../../redux/shop/shop.actions'
 
 import Spinner from '../../components/spinner/spinner.component'
