@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
     body {
         font-family: 'Open Sans Condensed';
         padding: 20px 40px;
@@ -20,5 +20,3 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box
     }
 `
-
-export default GlobalStyle
